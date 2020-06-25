@@ -1,5 +1,11 @@
 <%= form_for(@user) do |f| %>
-<p>
+  <ul>
+    <% @user.errors.full_messages.each do |error| %>
+      <li><%= error %></li>
+    <% end %>
+  </ul>
+
+  <p>
    <%= f.label :username %><br />
    <%= f.text_field :username %>
  </p>
