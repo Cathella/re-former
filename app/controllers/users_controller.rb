@@ -21,13 +21,12 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
     @user.update(user_params)
 
-    redirect_to action: "new"
+    redirect_to action: 'new'
   end
 
   private
 
   def user_params
-    params.require(:user).permit(:username,:email,:password)
+    params.require(:user).permit(:username, :email, :password)
   end
-
 end

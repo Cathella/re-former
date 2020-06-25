@@ -1,3 +1,29 @@
+<style>
+
+  form {
+    width: 40%;
+    margin: 100px auto;
+    border: 1px solid grey;
+  }
+
+  p {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  input[type="submit"] {
+    background: blue;
+    color: white;
+    width: 40%;
+    border: 0;
+    padding: 15px 40px;
+    border-radius: 5px;
+  }
+</style>
+
 <%= form_for(@user) do |f| %>
   <ul>
     <% @user.errors.full_messages.each do |error| %>
