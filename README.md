@@ -1,6 +1,6 @@
 # Re-former Project
 
-About this project
+This is part of the Forms Project in The Odin Project’s Ruby on Rails Curriculum. Find it at http://www.theodinproject.com
 
 ## Contributions
 
@@ -21,6 +21,10 @@ We appreciate all contributions to this project, please do by creating issues an
 * Twitter: [@cathella9](https://twitter.com/cathella9)
 * Linkedin: [Nakitto Catherine](https://www.linkedin.com/in/nakitt-catherine2020)
 
+👤 **Chukwuebuka Paul Ajuizeogu**
+- Github: [@misterpaul4](https://github.com/misterpaul4)
+- Twitter: [@paulajuze](https://twitter.com/paulajuze)
+- Linkedin: [Chukwuebuka Paul Ajuizeogu](https://www.linkedin.com/in/chukwuebuka-paul-ajuizeogu/)
 
 ## Built with
 - Ruby on Rails
